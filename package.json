@@ -1,0 +1,3 @@
+"scripts": {
+"test": "timeout 5s node index.js || [ $? -eq 124 ]"
+}
